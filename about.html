@@ -1,0 +1,253 @@
+<!DOCTYPE HTML>
+<!--
+    Editorial by HTML5 UP
+    html5up.net | @ajlkn
+-->
+<html>
+<head>
+    <title>About | Rashi Chaurasiya</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <style>
+        /* ABOUT HERO */
+        .about-hero {
+            background: linear-gradient(
+                rgba(0,0,0,0.6),
+                rgba(0,0,0,0.6)
+            ),
+            url("images/about-bg.jpg");
+            background-size: cover;
+            background-position: center;
+            padding: 100px 60px;
+            color: #fff;
+            border-radius: 6px;
+            margin-bottom: 60px;
+            animation: fadeUp 1s ease;
+        }
+
+        .about-hero h1 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .about-hero p {
+            font-size: 16px;
+            max-width: 650px;
+            line-height: 1.8;
+            color: #eaeaea;
+        }
+
+        .profile-pic {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            border: 3px solid #fff;
+            object-fit: cover;
+            margin: 25px 0;
+        }
+
+        /* CONTENT */
+        .about-content {
+            max-width: 850px;
+            animation: fadeUp 1.2s ease;
+        }
+
+        .about-content h2 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .about-content p {
+            font-size: 15px;
+            line-height: 1.9;
+            color: #555;
+            margin-bottom: 25px;
+        }
+
+        /* SKILLS */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 40px;
+        }
+
+        .skills span {
+            padding: 8px 18px;
+            border-radius: 20px;
+            font-size: 13px;
+            background: #f7f7f7;
+            border: 1px solid #ddd;
+        }
+
+        /* TIMELINE */
+        .timeline {
+            border-left: 2px solid #ddd;
+            padding-left: 25px;
+            margin-top: 30px;
+        }
+
+        .timeline-item {
+            margin-bottom: 30px;
+        }
+
+        .timeline-item span {
+            font-weight: 700;
+            color: #000;
+        }
+
+        .timeline-item p {
+            margin-top: 5px;
+            font-size: 14.5px;
+            color: #555;
+        }
+
+        /* ANIMATION */
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(25px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media screen and (max-width: 736px) {
+            .about-hero {
+                padding: 70px 30px;
+            }
+            .about-hero h1 {
+                font-size: 36px;
+            }
+        }
+    </style>
+</head>
+
+<body class="is-preload">
+
+<div id="wrapper">
+
+    <!-- MAIN -->
+    <div id="main">
+        <div class="inner">
+
+            <!-- Header -->
+            <header id="header">
+                <a href="index.html" class="logo"><strong>Welcome</strong> to here</a>
+            </header>
+
+            <!-- ABOUT HERO -->
+            <section class="about-hero">
+                <h1>About Me</h1>
+
+                <img src="images/profile.jpg" alt="Rashi Chaurasiya" class="profile-pic">
+
+                <p>
+                    Aspiring Data Scientist passionate about transforming data into
+                    meaningful insights and building intelligent, data-driven solutions.
+                </p>
+            </section>
+
+            <!-- ABOUT CONTENT -->
+            <section class="about-content">
+
+                <h2>Hello, I’m Rashi Chaurasiya</h2>
+                <p>
+                    I am an aspiring Data Scientist with a strong interest in data analysis,
+                    machine learning, and predictive modeling. I enjoy working with real-world
+                    datasets to solve problems and support smarter decision-making.
+                </p>
+
+                <p>
+                    My experience includes data cleaning, exploratory data analysis,
+                    feature engineering, and building machine learning models using Python.
+                    I continuously improve my skills through hands-on projects and learning.
+                </p>
+
+                <h2>Technical Skills</h2>
+                <div class="skills">
+                    <span>Python</span>
+                    <span>Machine Learning</span>
+                    <span>Data Analysis</span>
+                    <span>Pandas</span>
+                    <span>NumPy</span>
+                    <span>EDA</span>
+                    <span>Matplotlib</span>
+                    <span>Scikit-learn</span>
+                </div>
+
+                <h2>My Journey</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <span>2025</span>
+                        <p>Building real-world Data Science and Machine Learning projects.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <span>2024</span>
+                        <p>Learned Python, EDA, statistics, and ML fundamentals.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <span>2023</span>
+                        <p>Started my academic journey with a growing interest in data.</p>
+                    </div>
+                </div>
+
+            </section>
+
+        </div>
+    </div>
+
+    <!-- SIDEBAR -->
+    <div id="sidebar">
+        <div class="inner">
+
+            <nav id="menu">
+                <header class="major">
+                    <h2>Menu</h2>
+                </header>
+                <ul>
+                    <li><a href="index.html">Homepage</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="index.html#projects">Projects</a></li>
+                    <li><a href="resume/Resume.pdf">Resume</a></li>
+                </ul>
+            </nav>
+
+            <section>
+                <header class="major">
+                    <h2>Get in touch</h2>
+                </header>
+                <ul class="contact">
+                    <li class="icon solid fa-envelope">
+                        <a href="#">rashichaurasiya45@gmail.com</a>
+                    </li>
+                    <li class="icon solid fa-phone">9335234045</li>
+                </ul>
+            </section>
+
+            <footer id="footer">
+                <p class="copyright">
+                    I'm currently seeking new opportunities. Feel free to reach out.
+                </p>
+            </footer>
+
+        </div>
+    </div>
+
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
